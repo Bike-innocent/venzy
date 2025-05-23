@@ -130,12 +130,7 @@ function Hero() {
             <div className="slider-head">
               <div className="hero-slider">
                 {/* Slide 1 */}
-                <div
-                  className="single-slider "
-                  style={{
-                    backgroundImage: "url('../../../assets/images/hero/slider-bg1.jpg')",
-                  }}
-                >
+              <div className="single-slider slider1">
                   <div className="content">
                     <h2>
                       <span>No restocking fee ($35 savings)</span>
@@ -157,12 +152,7 @@ function Hero() {
                 </div>
 
                 {/* Slide 2 */}
-                <div
-                  className="single-slider "
-                  style={{
-                    backgroundImage: "url('../../../assets/images/hero/slider-bg2.jpg')",
-                  }}
-                >
+                <div className="single-slider slider2">
                   <div className="content">
                     <h2>
                       <span>Big Sale Offer</span>
@@ -190,12 +180,7 @@ function Hero() {
           <div className="col-lg-4 col-12">
             <div className="row">
               <div className="col-lg-12 col-md-6 col-12 md-custom-padding">
-                <div
-                  className="hero-small-banner"
-                  style={{
-                    backgroundImage: "url('../../../assets/images/hero/slider-bnr.jpg')",
-                  }}
-                >
+              <div className="hero-small-banner banner1">
                   <div className="content">
                     <h2>
                       <span>New line required</span>
