@@ -1,6 +1,7 @@
 import React from 'react'
 import Flogo from "../assets/images/logo/white-logo.svg"
 import Cardlogo from "../assets/images/footer/credit-cards-footer.png"
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -33,9 +34,10 @@ function Footer() {
                             <div class="row">
                                 <div class="col-lg-3 col-md-4 col-12">
                                     <div class="footer-logo">
-                                        <a href="index.html">
-                                            <img src={Flogo} alt="#" />
-                                        </a>
+                                        <Link href="/">
+                                            {/* <img src={Flogo} alt="#" /> */}
+                                            <h3 className='text-tw-primary'>VENZY</h3>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div class="col-lg-9 col-md-8 col-12">

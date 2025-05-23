@@ -115,7 +115,7 @@ function Hero() {
       nav: false,
       controls: true,
       controlsText: [
-        '<i class="lni lni-chevron-left"></i>',
+        '<i class="lni lni-chevron-left "></i>',
         '<i class="lni lni-chevron-right"></i>',
       ],
     });

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../component/Header'
+import Header from '../../component/Header/Header'
 import Hero from './mini-component/Hero'
 import Trending from './mini-component/Trending'
 import ProductBanner from './mini-component/ProductBanner'
@@ -9,12 +9,12 @@ import Footer from '../../component/Footer'
 function Home() {
     return (
         <>
-            <Header />
+           
             <Hero />
             <Trending />
             <ProductBanner />
             <ShippingInfo />
-            <Footer />
+           
         </>
     )
 }
