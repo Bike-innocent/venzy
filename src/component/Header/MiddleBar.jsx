@@ -1,6 +1,7 @@
 import React from 'react'
 import Cart1 from "../../assets/images/header/cart-items/item1.jpg"
 import Cart2 from "../../assets/images/header/cart-items/item2.jpg"
+import { Link } from 'react-router-dom'
 
 function MiddleBar() {
     return (
@@ -11,10 +12,10 @@ function MiddleBar() {
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-3 col-7">
                             {/* <!-- Start Header Logo--> */}
-                            <a class="navbar-brand" href="index.html">
+                            <Link class="navbar-brand" to="/">
                                 {/* <img src="assets/images/logo/logo.svg" alt="Logo"/> */}
                                 <h3>VENZY</h3>
-                            </a>
+                            </Link>
                             {/* <!-- End Header Logo--> */}
                         </div>
                         <div class="col-lg-5 col-md-7 d-xs-none">
@@ -54,12 +55,12 @@ function MiddleBar() {
                                     </h3>
                                 </div>
                                 <div class="navbar-cart">
-                                    <div class="wishlist">
+                                    {/* <div class="wishlist">
                                         <a href="javascript:void(0)">
                                             <i class="lni lni-heart"></i>
                                             <span class="total-items">0</span>
                                         </a>
-                                    </div>
+                                    </div> */}
                                     <div class="cart-items">
                                         <a href="javascript:void(0)" class="main-btn">
                                             <i class="lni lni-cart"></i>
@@ -69,20 +70,20 @@ function MiddleBar() {
                                         <div class="shopping-item">
                                             <div class="dropdown-cart-header">
                                                 <span>2 Items</span>
-                                                <a href="cart.html">View Cart</a>
+                                                <Link to="/cart">View Cart</Link>
                                             </div>
                                             <ul class="shopping-list">
                                                 <li>
                                                     <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                     <div class="cart-img-head">
-                                                        <a class="cart-img" href="product-details.html"><img
-                                                            src={Cart1} alt="#" /></a>
+                                                        <Link class="cart-img" to="/product-detail"><img
+                                                            src={Cart1} alt="#" /></Link>
                                                     </div>
 
                                                     <div class="content">
-                                                        <h4><a href="product-details.html">
-                                                            Apple Watch Series 6</a></h4>
+                                                        <h4><Link to="/product-detail">
+                                                            Apple Watch Series 6</Link></h4>
                                                         <p class="quantity">1x - <span class="amount">$99.00</span></p>
                                                     </div>
                                                 </li>
@@ -90,11 +91,11 @@ function MiddleBar() {
                                                     <a href="javascript:void(0)" class="remove" title="Remove this item"><i
                                                         class="lni lni-close"></i></a>
                                                     <div class="cart-img-head">
-                                                        <a class="cart-img" href="product-details.html"><img
-                                                            src={Cart2} alt="#" /></a>
+                                                        <Link class="cart-img" to="/product-detail"><img
+                                                            src={Cart2} alt="#" /></Link>
                                                     </div>
                                                     <div class="content">
-                                                        <h4><a href="product-details.html">Wi-Fi Smart Camera</a></h4>
+                                                        <h4><Link to="/product-detail">Wi-Fi Smart Camera</Link></h4>
                                                         <p class="quantity">1x - <span class="amount">$35.00</span></p>
                                                     </div>
                                                 </li>
@@ -105,7 +106,7 @@ function MiddleBar() {
                                                     <span class="total-amount">$134.00</span>
                                                 </div>
                                                 <div class="button">
-                                                    <a href="checkout.html" class="btn animate">Checkout</a>
+                                                    <Link to="/check-out" class="btn animate">Checkout</Link>
                                                 </div>
                                             </div>
                                         </div>

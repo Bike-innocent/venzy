@@ -81,29 +81,18 @@ function Footer() {
                                     </div>
                                     {/* <!-- End Single Widget --> */}
                                 </div>
-                                <div class="col-lg-3 col-md-6 col-12">
-                                    {/* <!-- Single Widget --> */}
-                                    <div class="single-footer our-app">
-                                        <h3>Our Mobile App</h3>
-                                        <ul class="app-btn">
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="lni lni-apple"></i>
-                                                    <span class="small-title">Download on the</span>
-                                                    <span class="big-title">App Store</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:void(0)">
-                                                    <i class="lni lni-play-store"></i>
-                                                    <span class="small-title">Download on the</span>
-                                                    <span class="big-title">Google Play</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    {/* <!-- End Single Widget --> */}
-                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
                                 <div class="col-lg-3 col-md-6 col-12">
                                     {/* <!-- Single Widget --> */}
                                     <div class="single-footer f-link">
@@ -150,8 +139,7 @@ function Footer() {
                                 </div>
                                 <div class="col-lg-4 col-12">
                                     <div class="copyright">
-                                        <p>Designed and Developed by<a href="https://graygrids.com/" rel="nofollow"
-                                            target="_blank">GrayGrids</a></p>
+                                        <p>© 2025 VENZY COLLECTIONS  All Rights Reserved.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-12">

@@ -14,6 +14,8 @@ import NotFound from './pages/NotFound';
 import Register from './pages/register/Register';
 import Faq from './pages/faq/Faq';
 import Shop from './pages/shop/Shop';
+import Cart from './pages/cart/Cart';
+import CheckOut from './pages/check-out/CheckOut';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +49,14 @@ const router = createBrowserRouter([
       {
         path: '/faq',
         element: <Faq/>,
+      },
+      {
+        path: '/cart',
+        element: <Cart/>,
+      },
+      {
+        path: '/check-out',
+        element: <CheckOut/>,
       },
     ],
   },

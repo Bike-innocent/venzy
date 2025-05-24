@@ -101,6 +101,7 @@
 import React, { useEffect } from 'react';
 import { tns } from 'tiny-slider/src/tiny-slider';
 import 'tiny-slider/dist/tiny-slider.css';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   useEffect(() => {
@@ -144,9 +145,9 @@ function Hero() {
                       <span>Now Only</span> $320.99
                     </h3>
                     <div className="button">
-                      <a href="product-grids.html" className="btn">
+                      <Link to="/shop" className="btn">
                         Shop Now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -166,9 +167,9 @@ function Hero() {
                       <span>Combo Only:</span> $590.00
                     </h3>
                     <div className="button">
-                      <a href="product-grids.html" className="btn">
+                      <Link to="/shop" className="btn">
                         Shop Now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -196,9 +197,9 @@ function Hero() {
                     <h2>Weekly Sale!</h2>
                     <p>Saving up to 50% off all online store items this week.</p>
                     <div className="button">
-                      <a className="btn" href="product-grids.html">
+                      <Link className="btn" to="/shop">
                         Shop Now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

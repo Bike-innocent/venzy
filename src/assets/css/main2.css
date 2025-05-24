@@ -41,7 +41,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: #888;
+ @apply text-text-2;
   overflow-x: hidden;
   font-size: 14px;
 }
@@ -1019,7 +1019,7 @@ ol {
 
 .breadcrumbs .breadcrumb-nav li,
 .breadcrumbs .breadcrumb-nav li a {
-  color: #888;
+ @apply text-text-2;
   font-size: 14px;
   font-weight: 500;
 }
@@ -1695,7 +1695,7 @@ ol {
 }
 
 .header .nav-hotline h3 span {
-  color: #888;
+ @apply text-text-2;
   font-weight: 500;
   font-size: 14px;
   display: block;
@@ -1738,6 +1738,7 @@ ol {
 .header .navbar-cart .wishlist a:hover {
   color: #fff;
   @apply bg-tw-primary;
+  
   border-color: transparent;
 }
 
@@ -2767,7 +2768,7 @@ ol {
 
 .navbar-nav .nav-item .sub-menu .nav-item a {
   padding: 0;
-  color: #888;
+ @apply text-text-2;
   display: block;
   width: 100%;
   font-size: 14px;
@@ -2926,6 +2927,40 @@ ol {
   position: relative;
 }
 
+
+
+
+.single-slider.slider1 {
+  background-image: url("../images/hero/slider-bg1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.single-slider.slider2 {
+  background-image: url("../images/hero/slider-bg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-small-banner.banner1 {
+  background-image: url("../images/hero/slider-bnr.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.single-banner.banner1 {
+  background-image: url("../images/banner/banner-1-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.single-banner.banner2 {
+  background-image: url("../images/banner/banner-2-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
 @media (max-width: 767px) {
   .hero-area .hero-slider .single-slider {
     position: relative;
@@ -2938,7 +2973,7 @@ ol {
     height: 100%;
     width: 100%;
     background-color: #fff;
-    opacity: 0.6;
+    opacity: 0;
   }
 }
 
@@ -3116,7 +3151,7 @@ ol {
 .hero-area .hero-small-banner .content h2 span {
   font-size: 15px;
   font-weight: 500;
-  color: #888;
+ @apply text-text-2;
   display: block;
   margin-bottom: 4px;
 }
@@ -3392,7 +3427,7 @@ ol {
 }
 
 .single-product .product-info .category {
-  color: #888;
+ @apply text-text-2;
   font-size: 13px;
   display: block;
   margin-bottom: 2px;
@@ -3430,7 +3465,7 @@ ol {
 .single-product .product-info .review li span {
   display: inline-block;
   margin-left: 4px;
-  color: #888;
+ @apply text-text-2;
   font-size: 13px;
 }
 
@@ -3660,7 +3695,7 @@ ol {
 .special-offer .offer-content .text .review li span {
   display: inline-block;
   margin-left: 4px;
-  color: #888;
+ @apply text-text-2;
   font-size: 13px;
 }
 
@@ -3687,7 +3722,7 @@ ol {
 }
 
 .special-offer .offer-content .text p {
-  color: #888;
+ @apply text-text-2;
 }
 
 .special-offer .offer-content .box-head {
@@ -4186,7 +4221,7 @@ ol {
 
 .blog-section .single-blog .blog-content .category {
   font-size: 14px;
-  color: #888;
+ @apply text-text-2;
   display: inline-block;
   font-weight: 500;
 }
@@ -4294,7 +4329,7 @@ ol {
 }
 
 .blog-single .meta-info li a {
-  color: #888;
+ @apply text-text-2;
   font-size: 14px;
   font-weight: 500;
 }
@@ -4472,7 +4507,7 @@ blockquote span {
   font-size: 13px;
   display: block;
   margin-top: 20px;
-  color: #888;
+ @apply text-text-2;
 }
 
 .post-bottom-area {
@@ -4501,7 +4536,7 @@ blockquote span {
 }
 
 .post-bottom-area .post-tag ul li a {
-  color: #888;
+ @apply text-text-2;
 }
 
 .post-bottom-area .post-tag ul li a:hover {
@@ -4518,7 +4553,7 @@ blockquote span {
   font-weight: 500;
   font-size: 14px;
   display: inline-block;
-  color: #888;
+ @apply text-text-2;
 }
 
 .post-bottom-area .post-social-media ul {
@@ -4663,7 +4698,7 @@ blockquote span {
   z-index: 2;
   background-color: transparent;
   border-radius: 5px;
-  color: #888;
+ @apply text-text-2;
 }
 
 @media (max-width: 767px) {
@@ -4764,25 +4799,25 @@ blockquote span {
 
 .comment-form form .form-box .form-control-custom::-webkit-input-placeholder {
   font-size: 14px;
-  color: #888;
+ @apply text-text-2;
   font-weight: 400;
 }
 
 .comment-form form .form-box .form-control-custom:-ms-input-placeholder {
   font-size: 14px;
-  color: #888;
+ @apply text-text-2;
   font-weight: 400;
 }
 
 .comment-form form .form-box .form-control-custom::-ms-input-placeholder {
   font-size: 14px;
-  color: #888;
+ @apply text-text-2;
   font-weight: 400;
 }
 
 .comment-form form .form-box .form-control-custom::placeholder {
   font-size: 14px;
-  color: #888;
+ @apply text-text-2;
   font-weight: 400;
 }
 
@@ -4901,7 +4936,7 @@ blockquote span {
   display: inline-block;
   margin-bottom: 10px;
   font-weight: 500;
-  color: #888;
+ @apply text-text-2;
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .cetagory:hover {
@@ -4967,7 +5002,7 @@ blockquote span {
   font-weight: 500;
   display: inline-block;
   margin-right: 5px;
-  color: #888;
+ @apply text-text-2;
 }
 
 .sidebar .widget.categories-widget ul li a:hover {
@@ -4994,7 +5029,7 @@ blockquote span {
   margin-bottom: 10px;
   color: #fff;
   background: transparent;
-  color: #888;
+ @apply text-text-2;
   border: 1px solid #eee;
   border-radius: 4px;
 }
@@ -5095,7 +5130,7 @@ blockquote span {
 .team .single-team .content h5 {
   font-size: 13px;
   margin-top: 5px;
-  color: #888;
+ @apply text-text-2;
 }
 
 .team .single-team .content .social {
@@ -5213,11 +5248,11 @@ blockquote span {
 .item-details .product-info .category i {
   display: inline-block;
   margin-right: 5px;
-  color: #888;
+ @apply text-text-2;
 }
 
 .item-details .product-info .category a {
-  color: #888;
+ @apply text-text-2;
   font-weight: 400;
   display: inline-block;
   margin-left: 5px;
@@ -5244,7 +5279,7 @@ blockquote span {
 .item-details .product-info .price span {
   display: inline-block;
   margin-left: 15px;
-  color: #888;
+ @apply text-text-2;
   text-decoration: line-through;
   font-size: 23px;
   font-weight: 500;
@@ -5863,7 +5898,7 @@ blockquote span {
 .product-details-info .reviews .single-review .review-info h4 span {
   font-size: 14px;
   display: block;
-  color: #888;
+ @apply text-text-2;
   margin-top: 7px;
 }
 
@@ -5903,7 +5938,7 @@ blockquote span {
 }
 
 .review-modal .modal-body .form-group label {
-  color: #888;
+ @apply text-text-2;
   font-size: 13px;
   margin-bottom: 5px;
   display: block;
@@ -6015,7 +6050,7 @@ blockquote span {
 
 .product-grids .product-grid-topbar .product-sorting .total-show-product {
   display: inline-block;
-  color: #888;
+ @apply text-text-2;
   font-weight: 400;
   font-size: 14px;
 }
@@ -6625,7 +6660,7 @@ blockquote span {
 }
 
 .checkout-steps-form-style-1 .form-default label {
-  color: #888;
+ @apply text-text-2;
   margin-bottom: 8px;
 }
 
@@ -6871,7 +6906,7 @@ blockquote span {
 .checkout-sidebar-coupon p {
   font-size: 14px;
   line-height: 20px;
-  color: #888;
+ @apply text-text-2;
   margin-bottom: 12px;
 }
 
@@ -7070,7 +7105,7 @@ blockquote span {
 .account-login .alt-option span {
   font-size: 14px;
   background: #fff;
-  color: #888;
+ @apply text-text-2;
   padding: 5px 15px;
 }
 
@@ -7117,7 +7152,7 @@ blockquote span {
 }
 
 .account-login .lost-pass {
-  color: #888;
+ @apply text-text-2;
 }
 
 .account-login .lost-pass:hover {
@@ -7292,7 +7327,7 @@ blockquote span {
 }
 
 .contact-us .contact-info .single-info ul li a {
-  color: #888;
+ @apply text-text-2;
   font-weight: 500;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -7589,7 +7624,7 @@ blockquote span {
 .error-area .error-content p {
   font-weight: 400;
   margin-bottom: 40px;
-  color: #888;
+ @apply text-text-2;
 }
 
 /*======================================
@@ -7874,7 +7909,7 @@ blockquote span {
 }
 
 .footer .footer-middle .newsletter-form p {
-  color: #888;
+ @apply text-text-2;
   margin-top: 20px;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function TopBar() {
   return (
@@ -54,10 +55,10 @@ function TopBar() {
                                     </div>
                                     <ul class="user-login">
                                         <li>
-                                            <a href="login.html">Sign In</a>
+                                            <Link to="/login">Sign In</Link>
                                         </li>
                                         <li>
-                                            <a href="register.html">Register</a>
+                                            <Link to="/register">Register</Link>
                                         </li>
                                     </ul>
                                 </div>

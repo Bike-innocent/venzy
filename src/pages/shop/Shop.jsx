@@ -146,14 +146,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Xiaomi Mi Band 5</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star"></i></li>
-                                                    <li><span>4.0 Review(s)</span></li>
-                                                </ul>
+                                                
                                                 <div class="price">
                                                     <span>$199.00</span>
                                                 </div>
@@ -177,14 +170,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Bluetooth Speaker</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><span>5.0 Review(s)</span></li>
-                                                </ul>
+                                             
                                                 <div class="price">
                                                     <span>$275.00</span>
                                                     <span class="discount-price">$300.00</span>
@@ -208,14 +194,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">WiFi Security Camera</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><span>5.0 Review(s)</span></li>
-                                                </ul>
+                                             
                                                 <div class="price">
                                                     <span>$399.00</span>
                                                 </div>
@@ -239,14 +218,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">iphone 6x plus</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><span>5.0 Review(s)</span></li>
-                                                </ul>
+                                             
                                                 <div class="price">
                                                     <span>$400.00</span>
                                                 </div>
@@ -269,14 +241,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Wireless Headphones</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><span>5.0 Review(s)</span></li>
-                                                </ul>
+                                             
                                                 <div class="price">
                                                     <span>$350.00</span>
                                                 </div>
@@ -299,14 +264,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Mini Bluetooth Speaker</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star"></i></li>
-                                                    <li><span>4.0 Review(s)</span></li>
-                                                </ul>
+                                                
                                                 <div class="price">
                                                     <span>$70.00</span>
                                                 </div>
@@ -330,14 +288,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Wireless Headphones</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star"></i></li>
-                                                    <li><span>4.0 Review(s)</span></li>
-                                                </ul>
+                                                
                                                 <div class="price">
                                                     <span>$100.00</span>
                                                     <span class="discount-price">$200.00</span>
@@ -361,14 +312,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Apple MacBook Air</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><span>5.0 Review(s)</span></li>
-                                                </ul>
+                                             
                                                 <div class="price">
                                                     <span>$899.00</span>
                                                 </div>
@@ -392,14 +336,7 @@ function Shop() {
                                                 <h4 class="title">
                                                     <a href="product-grids.html">Bluetooth Speaker</a>
                                                 </h4>
-                                                <ul class="review">
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><i class="lni lni-star-filled"></i></li>
-                                                    <li><span>5.0 Review(s)</span></li>
-                                                </ul>
+                                             
                                                 <div class="price">
                                                     <span>$275.00</span>
                                                     <span class="discount-price">$300.00</span>

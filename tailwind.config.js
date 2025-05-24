@@ -10,6 +10,8 @@ export default {
         "bg-2": "#fff",
 
         text: "#111827",
+        "text-2": "#666",
+        
         border: "#d1d5db",
        
 
