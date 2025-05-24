@@ -207,11 +207,11 @@ function BottomBar() {
                                     <li className="nav-item">
                                         <Link to="/shop" aria-label="Toggle navigation">Shop</Link>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link to="/about" aria-label="Toggle navigation">About</Link>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
-                                        <Link to="/wishlist" aria-label="Toggle navigation">Wishlist</Link>
+                                        <Link to="/faq" aria-label="Toggle navigation">FAQ</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/contact" aria-label="Toggle navigation">Contact Us</Link>

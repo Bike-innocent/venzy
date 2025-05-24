@@ -9,6 +9,11 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
 import ProductDetail from './pages/product-detail/ProductDetail';
+import Login from './pages/login/Login';
+import NotFound from './pages/NotFound';
+import Register from './pages/register/Register';
+import Faq from './pages/faq/Faq';
+import Shop from './pages/shop/Shop';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +25,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: 'about',
-        element: <About/>,
+        path: 'shop',
+        element: <Shop/>,
       },
       {
         path: 'contact',
@@ -31,8 +36,24 @@ const router = createBrowserRouter([
         path: 'product-detail',
         element: <ProductDetail />,
       },
+      {
+        path: '/login',
+        element: <Login />,
+      },
+      {
+        path: '/register',
+        element: <Register/>,
+      },
+      {
+        path: '/faq',
+        element: <Faq/>,
+      },
     ],
   },
+  {
+        path: '*',
+        element: <NotFound />,
+      },
 ]);
 
 function App() {

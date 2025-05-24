@@ -12,6 +12,7 @@ import './assets/css/LineIcons.3.0.css';
 import './assets/css/tiny-slider.css';
 import './assets/css/glightbox.min.css';
 import './assets/css/main.css';
+import './assets/css/main2.css';
 // import './assets/js/main.js';
 
 
