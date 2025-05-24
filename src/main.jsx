@@ -13,7 +13,7 @@ import './assets/css/tiny-slider.css';
 import './assets/css/glightbox.min.css';
 // import './assets/css/main.css';
 import './assets/css/main2.css';
- import './assets/js/bootstrap.min.js';
+//  import './assets/js/bootstrap.min.js';
 
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
